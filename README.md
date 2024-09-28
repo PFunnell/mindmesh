@@ -1,6 +1,8 @@
 # Metisem:  Semantic Linking Script
 
 ## Warning! In current config this will remove all existing links from your files when run. Amend the code before running if you don't want this to happen.
+In any case you should backup your vault/markdown collection before running a script like this :)
+
 
 ## Project Overview
 
@@ -101,6 +103,16 @@ deactivate
 ## Customization and Contribution
 
 Feel free to modify the code to suit your needs. You can adjust the clustering settings, add additional features, or contribute to the codebase by submitting a pull request.
+
+### Summary of Model Options:
+### For Speed and Simplicity:
+paraphrase-MiniLM-L6-v2 is the best choice. It’s lightweight, fast, and performs well for simpler semantic tasks but at the cost of some depth and accuracy. Best for slower hardware without GPU CUDA acceleration.
+
+### For Balanced Performance:
+all-mpnet-base-v2 is a good middle ground, offering improved accuracy and semantic understanding at a manageable computational cost. It’s suitable for a wider range of use cases and strikes a balance between speed and depth.
+
+### For Deeper Semantic Understanding:
+gtr-t5-xl provides the deepest and most nuanced embeddings but comes with high computational costs and slower processing. This model is best for more complex linking tasks where abstract relationships need to be captured.
 
 ### Contributing
 
