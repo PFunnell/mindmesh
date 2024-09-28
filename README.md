@@ -6,7 +6,7 @@
 
 A script to automatically link notes based on **semantic similarity**. Using **sentence embeddings** and **clustering techniques**, it creates connections between notes based on their content and titles, allowing users to navigate their knowledge base more intuitively. It works on any library of markdown .md files but was originally developed to work across a full **Obsidian** vault.
 ![a knowledge graph of 961 linked notes, chats imported from ChatGPT](./metisem.png)
-[i]Screenshot of Obsidian graph with 961 md files from ChatGPT import linked using metisem [/i]
+[em]Screenshot of Obsidian graph with 961 md files from ChatGPT import linked using metisem [/em]
 
 
 The script uses **PyTorch**, **sentence-transformers**, and **scikit-learn** for embedding generation, semantic similarity calculation, and clustering. The embeddings are processed using **CUDA** (if available) to optimize performance on GPUs.
