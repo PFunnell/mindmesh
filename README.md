@@ -30,6 +30,8 @@ Before you begin, ensure you have the following installed on your system:
 - **CUDA-enabled GPU** (optional, but recommended for faster processing)
 - **Obsidian** (knowledge base software)
 
+You can use [Nexus AI chat importer](https://forum.obsidian.md/t/plugin-nexus-ai-chat-importer-import-chatgpt-conversations-to-your-vault/71664) community plugin for Obsidian to import the zip of your exported ChatGPT chats.
+
 ## Installation and Setup
 
 ### Step 1: Clone the Repository
